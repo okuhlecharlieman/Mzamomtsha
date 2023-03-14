@@ -1,0 +1,91 @@
+<!Doctype html>
+
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> 
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSSMzamomtshaPrimarySchool.css">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Book It</title>
+  </head>
+
+  <body class="main_bg mt-5 mb-5">
+    <div class="bubble">
+    <div class="form">
+        <div class="form-text">
+            <h1><span><img src="art-1.png" alt=""></span>Book Now <span><img src="art-1.png" alt=""></span></h1>
+            <p> Welcome to the school's booking page where you can reserve your place at our events. </p>
+        </div>
+        <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span> What is your name? </span>
+                    <input type="text" name="name" id="name" placeholder="Write your name here..." required>
+                </div>
+                <div>
+                    <span> What is your surname?</span>
+                    <input type="email" name="surname" id="surname" placeholder="Write your email here..." required> 
+                </div>
+                <div>
+                    <!-- <---this is the select option--->
+                    <span> How many people will be attending? </span>
+                    <select name="people" id="people" aria-placeholder="..." required> 
+                      <option value="" disabled selected> ... </option>
+                        <option value="1" style="color: black;">1 People</option>
+                        <option value="2" style="color: black;">2 People</option>
+                        <option value="3" style="color: black;">3 People</option>
+                        <option value="4" style="color: black;">4 People</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                <div>
+                    <span> What is your email address? </span>
+                    <input type="text" name="email" id="email" placeholder="Email address..." required>
+                </div>
+                <div>
+                    <span> What is your phone number? </span>
+                    <input type="text" name="phone" id="phone" placeholder="Phone number..." required>
+                </div>
+                <div>
+                  <span> What is the date of event? </span>
+                  <input type="date" name="date" id="date" placeholder="Select date..." required>
+              </div>
+                <br>
+                <div>
+                    <span> Additional comments </span>
+                    <textarea class="comments" placeholder="Any additional information..."> </textarea>
+                </div>
+                <br>
+                <br>
+                <div style="margin-left: 50px;">
+                    <a href="Events.html">
+                    <button type="button" style="border-radius: 30px; margin-left: 220px;">BACK</button>
+                    </a>
+                </div>
+                <br>
+                <div>
+                    <button type="submit" class="submit" style="margin-left: 255px;">SUBMIT</button>
+                </div>
+                <br>
+                <br><br>
+
+
+            </form>
+        </div>
+    </div>
+    </div>
+    
+</body>
+
+</html>
+   
+    
